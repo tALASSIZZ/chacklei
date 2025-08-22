@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <div id="twitch-embed" style="width: 1px; height: 1px; overflow: hidden;"></div>
+
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Player("twitch-embed", {
+        channel: "YOUR_CHANNEL_NAME",
+        muted: true,
+        autoplay: true,
+        width: 1,
+        height: 1,
+        parent: ["tALASSIZZ.github.io"]
+      });
+    </script>
+  </body>
+</html>
